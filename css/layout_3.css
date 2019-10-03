@@ -1,0 +1,132 @@
+
+body{
+	background-image : url(../img/bi-background-bottom.png);
+	background-attachment: scroll;
+	background-size: 100% auto;
+	font-size: 75px;
+	text-align: center;
+	color: #ac3232;
+}
+
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
+
+.header a {
+  float: center;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+.header-right {
+  float: right;
+}
+
+#link {
+	font-size: 15px;
+	text-align: left;
+	padding: 15px;
+	
+}
+
+.blended_grid{
+	display: block;
+	width: 960px;
+	overflow: auto;
+	margin: 60px auto 0 auto;
+}
+.leftColumn{
+	background-color: grey ;
+	opacity: .9;
+	float: left;
+	clear: none;
+	height: 1100px;
+	width: 300px;
+	text-align: center;
+	font-size: 25px;
+	color: black;
+	border-radius: 15px;
+		
+}
+
+.topBanner{
+	background-color:red;
+	opacity: .9;
+	float: left;
+	clear: none;
+	height: 500px;
+	width: 660px;
+	text-align: center;
+	font-size: 25px;
+	color: black;
+	border-radius: 15px;
+}
+.leftContent{
+	background-color: yellow;
+	opacity: .9;
+	float: left;
+	clear: none;
+	height: 600px;
+	width: 330px;
+	text-align: center;
+	font-size: 25px;
+	color: black;
+	border-radius: 15px;
+}	
+.rightContent{
+	background-color:orange;
+	opacity: .9;
+	float: left;
+	clear: none;
+	height: 600px;
+	width: 330px;	
+	text-align: center;
+	font-size: 25px;
+	color: black;
+	border-radius: 15px;
+}
+.bottomBanner{
+	background-color:green;
+	opacity: .9;
+	float: left;
+	clear: none;
+	height: 600px;
+	width: 1320px;
+	text-align: center;
+	font-size: 25px;
+	margin-bottom: 25px;
+	color: black;
+	border-radius: 15px;
+}
+#help-box {
+	color: white;
+	border: solid 2px;
+	position: fixed;
+	bottom: 5%; 
+	right: 15px; 
+	text-align: center;
+	font-size: 15px;
+	border-radius: 20px;
+}
